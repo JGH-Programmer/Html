@@ -1,12 +1,77 @@
 a{
     color:orchid;
 }
-
-span{
-    color:blueviolet;
+a:active{
+    color:aqua
 }
 
 td{
     border: 1px solid rosybrown;
     padding: 20px;
 }
+
+span.apple{
+    color:aqua;
+}
+
+ul .banana{
+    color: red;
+}
+
+.box:hover{
+    width:300px;
+   background-color: burlywood;
+}
+.input-box{
+
+}
+.input-box:focus{
+    background-color: orange;
+}
+.fruitss{
+    color:sandybrown
+}
+.fruitss *:nth-child(3){
+    color:aqua;
+}
+.fruitss *:nth-child(4){
+    color:red;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition: 1s;
+}
+.box::before{
+    content: "Before!";
+}
+.box::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: royalblue;
+}
+[disabled]{
+    color: red;
+}
+[type="password"]{
+    color:aliceblue
+}
+.parent{
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+}
+.child{
+    width: 100px;
+    height: inherit;
+    background-color: inherit;
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}
+
+
+
